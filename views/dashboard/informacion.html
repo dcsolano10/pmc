@@ -1,0 +1,386 @@
+<div>
+	<a ui-sref="inicio" class="pull-right btn btn-primary btn-outline btn-rounded">Volver a inicio</a>
+	<h2>Información <small></small></h2>
+	<span class="glyphicon glyphicon-search bg-fade"></span>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				
+	<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Datos del paciente</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textEdad">Edad</label>  
+  <div class="col-md-2">
+  <input id="textEdad" name="textEdad" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectSexo">Sexo</label>
+  <div class="col-md-4">
+    <select id="selectSexo" name="selectSexo" class="form-control">
+      <option value="1">Femenino</option>
+      <option value="2">Masculino</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="select_raza">Raza</label>
+  <div class="col-md-4">
+    <select id="select_raza" name="select_raza" class="form-control">
+      <option value="1">Blanco</option>
+      <option value="2">Afro Americano</option>
+      <option value="3">Latino</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textNArtInf">Número de articulaciones inflamadas</label>  
+  <div class="col-md-2">
+  <input id="textNArtInf" name="textNArtInf" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textNArtDol">Número de articulaciones dolorosas</label>  
+  <div class="col-md-2">
+  <input id="textNArtDol" name="textNArtDol" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textEritro">Eritrosedimentación</label>  
+  <div class="col-md-2">
+  <input id="textEritro" name="textEritro" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textProC">Proteina C reactiva</label>  
+  <div class="col-md-2">
+  <input id="textProC" name="textProC" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textCol">Colesterol total</label>  
+  <div class="col-md-2">
+  <input id="textCol" name="textCol" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectTEvol">Tiempo de evolución de la enfermedad</label>
+  <div class="col-md-4">
+    <select id="selectTEvol" name="selectTEvol" class="form-control">
+      <option value="1">Temprana</option>
+      <option value="2">Tardía</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectTabaq">Tabaquismo</label>
+  <div class="col-md-2">
+    <select id="selectTabaq" name="selectTabaq" class="form-control">
+      <option value="1">Sí</option>
+      <option value="2">No</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textAntiCCP">AntiCCP</label>  
+  <div class="col-md-2">
+  <input id="textAntiCCP" name="textAntiCCP" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textFReum">Factor reumatoide</label>  
+  <div class="col-md-2">
+  <input id="textFReum" name="textFReum" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textIndiceCCI">Índice CCI</label>  
+  <div class="col-md-2">
+  <input id="textIndiceCCI" name="textIndiceCCI" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectEros">Erosiones</label>
+  <div class="col-md-2">
+    <select id="selectEros" name="selectEros" class="form-control">
+      <option value="1">Sí</option>
+      <option value="2">No</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectFuncionalidad">Funcionalidad del paciente</label>
+  <div class="col-md-2">
+    <select id="selectFuncionalidad" name="selectFuncionalidad" class="form-control">
+      <option value="1">Sí</option>
+      <option value="2">No</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectDep">Dependencia</label>
+  <div class="col-md-2">
+    <select id="selectDep" name="selectDep" class="form-control">
+      <option value="1">Sí</option>
+      <option value="2">No</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectLabAct">Laboralmente activo</label>
+  <div class="col-md-2">
+    <select id="selectLabAct" name="selectLabAct" class="form-control">
+      <option value="1">Sí</option>
+      <option value="2">No</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinputTGP">TGP</label>  
+  <div class="col-md-2">
+  <input id="textinputTGP" name="textinputTGP" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinputTGO">TGO</label>  
+  <div class="col-md-2">
+  <input id="textinputTGO" name="textinputTGO" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinputCreatinina">Creatinina</label>  
+  <div class="col-md-2">
+  <input id="textinputCreatinina" name="textinputCreatinina" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinputTuberculina">Tuberculina</label>  
+  <div class="col-md-2">
+  <input id="textinputTuberculina" name="textinputTuberculina" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasicAnemia">Anemia</label>
+  <div class="col-md-2">
+    <select id="selectbasicAnemia" name="selectbasicAnemia" class="form-control">
+      <option value="1">Sí</option>
+      <option value="2">No</option>
+    </select>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxVacunas">Vacunas</label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="checkboxVacunas-0">
+      <input type="checkbox" name="checkboxVacunas" id="checkboxVacunas-0" value="1">
+      Neumococo
+    </label>
+    <label class="checkbox-inline" for="checkboxVacunas-1">
+      <input type="checkbox" name="checkboxVacunas" id="checkboxVacunas-1" value="2">
+      Hepatitis B
+    </label>
+    <label class="checkbox-inline" for="checkboxVacunas-2">
+      <input type="checkbox" name="checkboxVacunas" id="checkboxVacunas-2" value="3">
+      Influenza
+    </label>
+    <label class="checkbox-inline" for="checkboxVacunas-3">
+      <input type="checkbox" name="checkboxVacunas" id="checkboxVacunas-3" value="4">
+      Herpes
+    </label>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxOEnfAut">Otras enfermedades autoinmunes</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="checkboxOEnfAut-0">
+      <input type="checkbox" name="checkboxOEnfAut" id="checkboxOEnfAut-0" value="1">
+      Lupus
+    </label>
+  </div>
+  <div class="checkbox">
+    <label for="checkboxOEnfAut-1">
+      <input type="checkbox" name="checkboxOEnfAut" id="checkboxOEnfAut-1" value="2">
+      Sjogren
+    </label>
+  </div>
+  <div class="checkbox">
+    <label for="checkboxOEnfAut-2">
+      <input type="checkbox" name="checkboxOEnfAut" id="checkboxOEnfAut-2" value="3">
+      Hepatitis autoinmune
+    </label>
+  </div>
+  </div>
+</div>
+
+</fieldset>
+</form>
+			</div>
+
+			<!-- Trigger the modal with a button -->
+
+
+			<!-- Modal -->
+			<div id="myModal" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Horarios del doctor ...</h4>
+						</div>
+						<div class="modal-body">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h3 class="panel-title">Septiembre 2016</h3>
+								</div>
+								<div class="panel-body">
+
+									<table class="table">
+										<thead>
+											<tr>
+												<th>#</th>
+												<th>Fecha</th>
+												<th>Hora</th>
+												<th>Reservas</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th scope="row">1</th>
+												<td>23 (Viernes)</td>
+												<td>9:00 - 9:45 (am)</td>
+												<td><a href="#" class="btn btn-primary" role="button">Reservar</a></td>
+											</tr>
+											<tr>
+												<th scope="row">2</th>
+												<td>24 (Sábado)</td>
+												<td> 10:00 - 10:45 (am)</td>
+												<td><a href="#" class="btn btn-primary" role="button">Reservar</a></td>
+											</tr>
+											<tr>
+												<th scope="row">3</th>
+												<td>25 (Domingo)</td>
+												<td>5:00 - 5:45 (pm)</td>
+												<td><a href="#" class="btn btn-primary" role="button">Reservar</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+
+							</div>						</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div id="modal2" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Infomación del Doctor ...</h4>
+							</div>
+							<div class="modal-body">
+								<p>
+									ESTUDIOS REALIZADOS
+
+									POSTGRADO: UNIVERSIDAD MILITAR NUEVA GRANADA: "ESCUELA MILITAR DE MEDICINA". ESPECIALISTA EN MEDICINA INTERNA. ENERO 1985 - ENERO 1988.
+
+									UNIVERSIDAD NACIONAL DE COLOMBIA: ESPECIALISTA EN REUMATOLOGIA. FEBRERO 1988 - FEBRERO 1990.
+
+									EXPERIENCIA LABORAL Y DOCENTE
+
+									SERVICIO DE SALUD DE BOGOTA: MEDICO RURAL. SEPTIEMBRE 1983 - SEPTIEMBRE 1984.
+
+									CLINICA EL BOSQUE-BOGOTA: MEDICO INTENSIVISTA. MARZO 1987 - ENERO 1990.
+
+									FUNDACION INSTITUTO DE REUMATOLOGIA  CONSULTA EXTERNA E INMUNOLOGIA: BOGOTA. MARZO 1988-ENERO 1990.
+
+									FUNDACION VALLE DEL LILI - CALI: REUMATOLOGO - INTERNISTA. FEBRERO 1990 - JUNIO 2001. JEFE DEPARTAMENTO DE MEDICINA INTERNA. ENERO 1994 – JUNIO 2001.
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+	</div>
+</div>

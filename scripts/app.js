@@ -15,7 +15,7 @@
   ])
  .config(function($stateProvider, $urlRouterProvider) {
 
-  $urlRouterProvider.when('/dashboard', '/dashboard/overview');
+  $urlRouterProvider.when('/dashboard', '/dashboard/inicio');
   $urlRouterProvider.otherwise('/login');
 
   $stateProvider
@@ -36,20 +36,20 @@
     templateUrl: 'views/dashboard.html',
     controller: 'DashboardCtrl'
   })
-  .state('overview', {
-    url: '/overview',
+  .state('inicio', {
+    url: '/inicio',
     parent: 'dashboard',
-    templateUrl: 'views/dashboard/overview.html'
+    templateUrl: 'views/dashboard/inicio.html'
   })
-  .state('reports', {
-    url: '/reports',
+  .state('informacion', {
+    url: '/informacion',
     parent: 'dashboard',
-    templateUrl: 'views/dashboard/reports.html'
+    templateUrl: 'views/dashboard/informacion.html'
   })
-  .state('citas', {
-    url: '/citas',
+  .state('resultados', {
+    url: '/resultados',
     parent: 'dashboard',
-    templateUrl: 'views/dashboard/citas.html'
+    templateUrl: 'views/dashboard/resultados.html'
   });
 
 });
