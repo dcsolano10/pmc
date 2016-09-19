@@ -1,12 +1,51 @@
 <div>
 	<div class="jumbotron">
 		<div class="container">
-			<h1>¡Bienvenido Max!</h1>
+			<h1>¡Bienvenido Tiberio!</h1>
 			<h3>Ingresa la información del paciente y personaliza su tratamiento </h3><br /><br />
 		
 
 		<div class="row">
+			<form class="form-horizontal">
+<fieldset>
 
+			
+
+			<!-- Select Basic -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="selectbasic">Seleccionar especialidad</label>
+			  <div class="col-md-6">
+			    <select id="selectbasic" name="selectbasic" class="form-control">
+			      <option value="1">Reumatología</option>
+			      <option value="2">Neumología</option>
+			      <option value="3">Cardiología</option>
+			      <option value="4">Oncología</option>
+			    </select>
+			  </div>
+			</div>
+
+			<!-- Select Basic -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="selectbasic">Seleccionar enfermedad</label>
+			  <div class="col-md-6">
+			    <select id="selectbasic" name="selectbasic" class="form-control">
+			      <option value="1">Artritis reumatoide</option>
+			      <option value="2">Lupus</option>
+			      <option value="3">Gota</option>
+			    </select>
+			  </div>
+			</div>
+
+			<!-- Button -->
+			<div class="form-group">
+			  <label class="col-md-5 control-label" for="singlebutton"></label>
+			  <div class="col-md-5">
+			    <button id="singlebutton" name="singlebutton" class="btn btn-info" ui-sref="informacion">Ingresar información</button>
+			  </div>
+			</div>
+
+			</fieldset>
+			</form>
 
 		</div>
 		</div>
